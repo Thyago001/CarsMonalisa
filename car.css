@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 20px;
+}
+
+header {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+h1 {
+    border-left: 3px solid white;
+    padding-left: 10px;
+    font-size: 1.5em;
+}
+
+p {
+    font-style: italic;
+    margin-top: -10px;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid white;
+}
+
+.sinopse {
+    margin-top: 20px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+.categoria h2 {
+    margin-bottom: 15px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos a {
+    flex: 0 0 auto;
+    width: 150px; /* Adjusted width */
+    opacity: 0.8; /* Added opacity */
+    transition: opacity 0.3s ease;
+}
+
+.categoria-videos a:hover {
+    opacity: 1;
+}
+
+.categoria-videos img {
+    width: 100%;
+    border: 2px solid white;
+    transition: opacity 0.3s ease;
+}
